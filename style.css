@@ -69,6 +69,7 @@ body{
   border-radius: 3px;
   background: var(--dark);
   margin: 5px auto;
+  transition: all 0.3s;
 }
 
 .menu .bar:nth-child(1),
@@ -115,7 +116,7 @@ body{
   width: 100%;
 }
 
-@media(max-width:785px) {
+@media (max-width:785px) {
   .navigation{
     padding: 18px 20px;
   }
@@ -148,7 +149,7 @@ body{
   .nav-item{
     margin: 16px 0;
   }
-}
+
 /*Main*/
 .home{
   padding: 100px 2%;
@@ -163,11 +164,12 @@ body{
 }
 .home .text-h1{
   font-size: 2.5rem;
-  line-break: 3rem;
+  line-height: 3rem;
 }
 .home p{
   font-size: 15px;
 }
 .home-img{
   width: 125%;
+}
 }
